@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minecraft Maps</title>
+	<!-- link ke bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <!-- script AOS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- style AOS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+
+  <!-- script animasi -->
+  <script>
+    AOS.init({
+      duration: 1000, // durasi animasi dalam ms
+      easing: "ease", // jenis easing
+      once: true, // animasi hanya akan terjadi sekali saat halaman dimuat
+    });
+  </script>
+  <style>
+    h4 {
+      font-family: 'Inter', sans-serif;
+      font-weight: bold;
+    }
+</style>
+
+	<style>
+    html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  transition: scroll-behavior 0.3s ease-in-out, scroll-snap-type 0.3s ease-in-out;
+}
+
+body {
+  scroll-snap-align: start;
+  transition: scroll-snap-align 0.3s ease-in-out;
+}
+
+    footer {
+  padding: 20px;
+  background-color: #87CEFA;
+  margin-top: 50px;
+  text-align: center;
+}
+		/* gradient background */
+		body {
+			background: linear-gradient(to bottom right, #87CEFA, #00BFFF);
+		}
+	</style>
+</head>
+<body>
+  <script>
+    const aboutButton = document.querySelector('#about-button');
+const aboutSection = document.querySelector('#about');
+
+aboutButton.addEventListener('click', () => {
+  aboutSection.scrollIntoView({ behavior: 'smooth' });
+});
+  </script>
+
+	<header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #01b7fe">
+    <a class="navbar-brand" href="https://youtube.com/@fdcraft">
+      <img src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png" alt="Logo Fand Craft" width="200">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tentang">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .navbar-brand img {
+    width: 40px;
+    height: auto;
+  }
+</style>
+
+
+	<main class="container mt-3">
+		<section>
+		<main class="container mt-3">
+	<section>
+		<h1 class="text-center">
+			<img src="https://media.discordapp.net/attachments/973491486475845643/1096964763021484112/IMG_20230416_080541.png" alt="Minecraft Maps" width="300px">
+		</h1>
+		<p class="text-center">Selamat datang di website fand craft</p>
+  </section>
+</main>
+
+
+<section>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-3"> 
+        <img src="http://images.mcpe.world/mining-simulator-farm-simulator/s01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mining x Farm</h5>
+          <a href="https://mcpeaddons.app/mining-simulator-farm-simulator" class="btn btn-primary btn-block">Lihat detail</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="http://images.mcpe.world/mni-phone-map/s01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mni Phone</h5>
+          <a href="https://mcpeaddons.app/mni-phone-map" class="btn btn-primary btn-block">Lihat detail</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="http://images.mcpe.world/farm-simulator-minigame/s01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Farm Simulator</h5>
+          <a href="https://mcpeaddons.app/farm-simulator-minigame" class="btn btn-primary btn-block">Lihat detail</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+		<section>
+			<h2>Map Minecraft Terbaru</h2>
+			<ul>
+				<li><a href="#">Mining x Farm Simulator</a></li>
+				<li><a href="#">Farm Simulator</a></li>
+				<li><a href="#">Mni Phone</a></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Donasi</h2>
+			<ul>
+				<li><a href="https://trakteer.id/fand">Trakteer</a></li>
+	 				<li><a href="https://saweria.co/fandcraft">Saweria</a></li>
+			</ul>
+		</section>
+	</main>
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <section class="about-section" id="tentang">
+        <h4 id="tentang">Tentang Kami</h4>
+        <p>Kami adalah sebuah tim yang berfokus pada pembuatan konten Minecraft, termasuk peta, mod, dan plugin.</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Menu Utama</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak Kami</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4>Ikuti Kami</h4>
+        <ul class="list-unstyled">
+          <li><a href="https://youtube.com/@fdcraft"><i class="fa fa-youtube"></i>Youtube</a></li>
+          <li><a href="https://tiktok.com/@fandcraft"><i class="fa fa-tiktok"></i>Tiktok</a></li>
+          <li><a href="https://twitter.com/@fandcraft"><i class="fa fa-twitter"></i> twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <p>© 2023 Fand Craft. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+	<!-- link ke jquery dan bootstrap js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
